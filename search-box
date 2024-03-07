@@ -1,0 +1,12 @@
+import { Search } from "lucide-react";
+
+<div className="flex bg-gray-300 min-h-[fixed] w-full text-black px-5 py-2 rounded-lg items-center ">
+          <Search className="text-gray-800 mr-1" />
+          <input
+            type="search"
+            id="exampleSearch2"
+            placeholder="Search"
+            className="bg-transparent placeholder:text-gray-800 w-full focus:outline-none"
+          />
+       
+        </div>
